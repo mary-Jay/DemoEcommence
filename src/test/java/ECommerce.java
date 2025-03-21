@@ -46,5 +46,7 @@ public class ECommerce {
             addToCartButton.click();
             System.out.println("Successfully hovered over and clicked the 'Add to Cart' button!");
         Thread.sleep(Long.parseLong("2000"));
+
+        driver.quit();
     }
 }
